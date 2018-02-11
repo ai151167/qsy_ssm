@@ -1,0 +1,11 @@
+package com.qsy.ssm.service;
+
+import com.qsy.ssm.model.SysUser;
+
+public interface ISysUserService {
+
+	SysUser checkIsOk(SysUser sysUser);
+
+	SysUser checkUserByPWDEncode(SysUser sysUser);
+
+}

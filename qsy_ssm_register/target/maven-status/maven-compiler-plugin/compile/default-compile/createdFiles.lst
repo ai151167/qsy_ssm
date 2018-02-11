@@ -1,0 +1,3 @@
+com\qsy\ssm\register\service\impl\RegisterServiceImpl.class
+com\qsy\ssm\register\controller\RegisterController.class
+com\qsy\ssm\register\service\IRegisterService.class

@@ -1,0 +1,17 @@
+package com.qsy.ssm.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.qsy.ssm.model.SysUser;
+import com.qsy.ssm.service.ISysUserService;
+
+
+@Service
+public class SysUserServiceImpl implements ISysUserService {
+
+	@Override
+	public SysUser checkIsOk(SysUser sysUser) {
+		return null;
+	}
+
+}

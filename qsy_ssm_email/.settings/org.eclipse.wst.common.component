@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="qsy_ssm_email">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <dependent-module archiveName="qsy_ssm_common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qsy_ssm_common/qsy_ssm_common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fastdfs-client-java-1.25.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fastdfs-client-java/fastdfs-client-java">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="qsy_ssm_entity-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qsy_ssm_entity/qsy_ssm_entity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="qsy_ssm_email"/>
+        <property name="java-output-path" value="/qsy_ssm_email/target/classes"/>
+    </wb-module>
+</project-modules>

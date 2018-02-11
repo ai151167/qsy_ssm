@@ -1,0 +1,4 @@
+com\qsy\ssm\service\impl\DetailServiceImpl.class
+com\qsy\ssm\service\IDetailService.class
+com\qsy\ssm\detailcontroller\DetailController.class
+com\qsy\ssm\messagelistener\MessageListen.class

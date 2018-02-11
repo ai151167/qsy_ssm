@@ -1,0 +1,5 @@
+com\qsy\ssm\mapper\ProductMapper.class
+com\qsy\ssm\mapper\ProductDescMapper.class
+com\qsy\ssm\mapper\ProductCategoryMapper.class
+com\qsy\ssm\mapper\SysUserMapper.class
+com\qsy\ssm\mapper\AdvsMapper.class
